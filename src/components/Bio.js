@@ -26,7 +26,11 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        <p>
+        <p
+          style={{
+            color: 'red',
+          }}
+        >
           Written by <strong>Gerrit Halfmann</strong> who lives and works in San
           Francisco building useful things.{' '}
           <a href="https://twitter.com/kylemathews">
